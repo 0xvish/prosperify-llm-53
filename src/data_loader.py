@@ -8,7 +8,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Using device: {device}")
 
 # Load PDF
-loader = PyPDFLoader("../intro_to_finance.pdf")
+loader = PyPDFLoader("intro_to_finance.pdf")
 docs = loader.load()
 
 # Load Embedding Model with GPU
