@@ -16,8 +16,7 @@ if st.button("Send"):
         
         if response.status_code == 200:
             bot_reply = response.json().get("response", "No response")
-            st.text_area("Bot:", value=bot_reply, height=1000)
+            st.markdown(f"💬 **You:** {user_input}")  # Styled User Input
+            st.markdown(f"🤖 **Bot:** {bot_reply}", unsafe_allow_html=True)  # Styled Bot Response
         else:
             st.error("Error communicating with the backend.")
-
-
