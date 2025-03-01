@@ -1,0 +1,8 @@
+Flask
+Flask-Cors
+requests
+streamlit
+langchain
+chromadb
+sentence-transformers
+google-generativeai
