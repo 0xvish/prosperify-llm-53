@@ -63,7 +63,7 @@ User's Question:
 
 even if there is no financial information retrieved(context), then use the user_query to understand the question and help them by doing what the user has asked.
 Provide a structured, clear, and detailed response.
-If the user provides query in hindi, translate it to english, generate response, convert it to hindi and send it."""
+Only if the user provides query in hindi or asks in the prompt to give the response in hindi, translate it to english, generate response, convert it to hindi and send it."""
 
     # Get response from Gemini
     bot_response = get_gemini_response(full_prompt)
