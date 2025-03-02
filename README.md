@@ -6,7 +6,7 @@ Prosperify is an AI-powered financial assistant designed specifically for Indian
 ## 🎥 Demo Video
 [Watch the Demo](https://youtu.be/83D2RGb9kv8)
 
-## 🌐 Live Demo
+## 🌐 Front End
 🔗 [Frontend Repository](https://github.com/0xvish/prosperify-fe-53)
 
 ## ✨ Features
